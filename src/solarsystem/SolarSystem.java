@@ -11,6 +11,7 @@ import java.util.ArrayList;
 public class SolarSystem {
 	
 	// fill code //
+	ArrayList<Planet> planets;
 	public static final int X_RANGE = 2;
 	public static final int Y_RANGE = 2;
 	
@@ -66,7 +67,9 @@ public class SolarSystem {
 	}
 	
 	//fill code //
-	
+	void addPlanet(Planet planet) {
+		
+	}
 	
 	public static void printMap() {
 		for( int i = Y_RANGE*2 ; i >= -Y_RANGE*2 ; i-- ) {
