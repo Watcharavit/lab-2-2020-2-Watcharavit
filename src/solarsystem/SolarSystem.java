@@ -87,7 +87,7 @@ public class SolarSystem {
 				}
 			}
 		} else if (planets.size() == 2) {
-			return false;
+			return true;
 		}
 		return false;
 	}
